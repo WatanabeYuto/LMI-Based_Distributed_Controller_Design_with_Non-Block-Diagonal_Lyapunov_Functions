@@ -1,5 +1,11 @@
 function [ X ] = generate_SXlessS( S )
-% Generate a maximally sparsity-wise invariant (MSI) subplace with respect
+
+%% This code is based on the following paper and GitHub repository:
+% Sparsity Invariance for Convex Design od Distributed Controllers, by by Luca Furieri, Yang Zheng, Antonis Papachristodoulou, Maryam Kamgarpour, IEEE Transactions on Control of Network Systems, 2020
+% https://github.com/FurieriLuca/Sparsity-Invariance
+
+
+    % Generate a maximally sparsity-wise invariant (MSI) subplace with respect
 % to X
 % See Section 3.2 of the following paper
 % "Minimizing suboptimality in Distritbued Control: a Framework-Independent Approach"

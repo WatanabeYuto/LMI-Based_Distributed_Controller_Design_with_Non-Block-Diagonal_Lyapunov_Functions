@@ -1,5 +1,12 @@
 function [gamma_opt,K_opt,P_opt] = Hinfty_SI(params,flag)
 
+    %% This code is based on the following paper and GitHub repository:
+    % Sparsity Invariance for Convex Design od Distributed Controllers, by by Luca Furieri, Yang Zheng, Antonis Papachristodoulou, Maryam Kamgarpour, IEEE Transactions on Control of Network Systems, 2020
+    % https://github.com/FurieriLuca/Sparsity-Invariance
+
+    % This code presents a state-space controller design based on the above paper.
+
+
     n = params.n;
     G = params.G;
 
