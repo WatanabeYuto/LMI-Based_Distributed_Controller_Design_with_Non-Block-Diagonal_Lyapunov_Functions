@@ -1,5 +1,7 @@
 # LMI-Based_Distributed_Controller_Design_with_Non-Block-Diagonal_Lyapunov_Functions
 
+Note: New version is here: https://github.com/WatanabeYuto/Distributed_Control_with_Non-Block-Diagonal_Lyapunov
+
 This repository presents the simulation codes for the numearical experiments in the following paper:
 
 >> Y. Watanabe, S.  Fushimi, and K. Sakurama, “Convex reformulation of LMI-based distributed controller design
